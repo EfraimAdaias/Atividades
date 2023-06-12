@@ -11,7 +11,6 @@ header{
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
-    padding: 16px;
 }
 
 ul{
@@ -21,17 +20,17 @@ ul{
 
 nav ul li {
     display: inline;
-    padding-left: 16px;
   }
 
-  nav ul li a{
+nav ul li a{
     text-decoration: none;
     display: inline-block;
+    padding: 10px;
     color: white;
     transition: background .2s;
   }
-  nav ul li a:hover{
-    color: #281eb6;
+nav ul li a:hover{
+    color: black;
     background-color: white;
   }
 
@@ -48,10 +47,11 @@ nav ul li {
     background-color: orangered;
     padding: 1em;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.1em;
     width: 300px;
     height: 130px;
     border-radius: 20px;
+    box-shadow: 1px 1px 5px rgb(65, 65, 65);
 }
 
 /* MAIN */
@@ -65,7 +65,7 @@ main section{
 main section div{
     height: 600px;
     width: 1000px;
-    margin: 2em;
+    margin-bottom: 2em;
     padding: 1em;
 }
 
@@ -76,10 +76,4 @@ main section div h1{
 main section div img {
     margin-bottom: 1em;
     border-radius: 10px;
-}
-
-/* FOOTER */
-
-footer{
-    justify-content: center;
 }
